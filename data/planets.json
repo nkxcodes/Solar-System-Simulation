@@ -1,7 +1,73 @@
-{
-    "planet_name": "Earth",
-    "diameter": "54.988m",
-    "coordinate_x": "987",
-    "coordinate_y": "890",
-    "description": "Earth: The only habitable planet in our solar system, It contains life and life matarials like:- water, air, fire, space, earth"
-}
+[
+    {
+        "planet": "Mercury",
+        "Diamter(km)": 4879,
+        "Distance_from_Sun_(million km)": 57.9,
+        "Main_Color": "Gray",
+        "Moons": 0,
+        "Orbital_Speed_(km/s)": 47.4
+    },
+
+    {
+        "planet": "Venus",
+        "Diamter(km)": 12104,
+        "Distance_from_Sun_(million km)": 108.2,
+        "Main_Color": "Yellowish-White",
+        "Moons": 0,
+        "Orbital_Speed_(km/s)": 35.0
+    },
+
+    {
+        "planet": "Earth",
+        "Diamter(km)": 12742,
+        "Distance_from_Sun_(million km)": 149.6,
+        "Main_Color": "Blue-Green-White",
+        "Moons": 1,
+        "Orbital_Speed_(km/s)": 29.8
+    }, 
+
+    {
+        "planet": "Mars",
+        "Diamter(km)": 6779,
+        "Distance_from_Sun_(million km)": 227.9,
+        "Main_Color": "Red-Orange",
+        "Moons": 2,
+        "Orbital_Speed_(km/s)": 24.1
+    },
+
+    {
+        "planet": "Jupiter",
+        "Diamter(km)": 139822,
+        "Distance_from_Sun_(million km)": 778.5,
+        "Main_Color": "Brown-White-Orange",
+        "Moons": 79,
+        "Orbital_Speed_(km/s)": 13.1
+    },
+    
+    {
+        "planet": "Saturn",
+        "Diamter(km)": 116460,
+        "Distance_from_Sun_(million km)": 1433.5,
+        "Main_Color": "Pale-Yellow",
+        "Moons": 146,
+        "Orbital_Speed_(km/s)": 9.7
+    },
+
+    {
+        "planet": "Uranus",
+        "Diamter(km)": 50724,
+        "Distance_from_Sun_(million km)": 2872.5,
+        "Main_Color": "Blue-Green",
+        "Moons": 28,
+        "Orbital_Speed_(km/s)": 6.8
+    },
+
+    {
+        "planet": "Neptune",
+        "Diamter(km)": 49244,
+        "Distance_from_Sun_(million km)": 4495.1,
+        "Main_Color": "Deep-Blue",
+        "Moons": 16,
+        "Orbital_Speed_(km/s)": 5.4
+    }
+]
