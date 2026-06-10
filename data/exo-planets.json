@@ -1,0 +1,41 @@
+[
+    {
+        "Planet": "Kepler-452b",
+        "Type": "Super-Earth",
+        "Diamter(km)": 20400,
+        "Orbital_Period(days)": 385,
+        "Orbital_Speed(km/s)": 32
+    },
+
+    {
+        "Planet": "Proxima Centauri b",
+        "Type": "Rocky-Planet",
+        "Diamter(km)": 195000,
+        "Orbital_Period(days)": 11.2,
+        "Orbital_Speed(km/s)": 47  
+    },
+
+    {
+        "Planet": "HD 209458 b",
+        "Type": "Gas-Giant",
+        "Diamter(km)": 195000,
+        "Orbital_Period(days)": 3.5,
+        "Orbital_Speed(km/s)": 143
+    },
+
+    {
+        "Planet": "WASP-12b",
+        "Type": "Gas-Giant",
+        "Diamter(km)": 270000,
+        "Orbital_Period(days)": 1.1,
+        "Orbital_Speed(km/s)": 230
+    },
+
+    {
+        "Planet": "TRAPPIST-1e",
+        "Type": "Rocky-Planet",
+        "Diamter(km)": 11700,
+        "Orbital_Period(days)": 6.1,
+        "Orbital_Speed(km/s)": 51
+    }
+]

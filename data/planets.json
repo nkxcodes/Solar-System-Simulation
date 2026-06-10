@@ -1,6 +1,6 @@
 [
     {
-        "planet": "Mercury",
+        "Planet": "Mercury",
         "Diamter(km)": 4879,
         "Distance_from_Sun_(million km)": 57.9,
         "Main_Color": "Gray",
