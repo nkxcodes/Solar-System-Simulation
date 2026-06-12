@@ -2,7 +2,7 @@ import pygame
 
 EARTH_IMG = pygame.transform.scale(
     pygame.image.load("assets/earth-planet.png").convert_alpha(),
-    (80, 80)
+    (40, 40)
 )
 
 JUPITER_IMG = pygame.transform.scale(
@@ -12,37 +12,37 @@ JUPITER_IMG = pygame.transform.scale(
 
 MARS_IMG = pygame.transform.scale(
     pygame.image.load("assets/mars-planet.png").convert_alpha(),
-    (80, 80)
+    (30, 30)
 )
 
 MERCURY_IMG = pygame.transform.scale(
     pygame.image.load("assets/mercury-planet.png").convert_alpha(),
-    (80, 80)
+    (20, 20)
 )
 
 NEPTUNE_IMG = pygame.transform.scale(
     pygame.image.load("assets/neptune-planet.png").convert_alpha(),
-    (80, 80)
+    (55, 55)
 )
 
 URANUS_IMG = pygame.transform.scale(
     pygame.image.load("assets/uranus-planet.png").convert_alpha(),
-    (80, 80)
+    (55, 55)
 )
 
 VENUS_IMG = pygame.transform.scale(
     pygame.image.load("assets/venus-planet.png").convert_alpha(),
-    (80, 80)
+    (35, 35)
 )
 
 SUN_IMG = pygame.transform.scale(
     pygame.image.load("assets/sun.png").convert_alpha(),
-    (100, 100)
+    (120, 120)
 )
 
 SATURN_IMG = pygame.transform.scale(
     pygame.image.load("assets/saturn-planet.png").convert_alpha(),
-    (150, 150)
+    (70, 70)
 )
 
 BACKGROUND_IMG = pygame.transform.scale(
