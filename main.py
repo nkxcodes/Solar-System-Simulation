@@ -4,7 +4,7 @@
 import pygame
 
 pygame.init()
-screen = pygame.display.set_mode((1280, 720))
+screen = pygame.display.set_mode((1920, 1080))
 pygame.display.set_caption("Solar System Simulation")
 
 from assets import EARTH_IMG, JUPITER_IMG, MARS_IMG, MERCURY_IMG, NEPTUNE_IMG, SATURN_IMG, SUN_IMG, URANUS_IMG, VENUS_IMG, BACKGROUND_IMG
