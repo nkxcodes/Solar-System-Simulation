@@ -27,6 +27,9 @@ def main():
             screen.blit(SATURN_IMG, (800, 150))
             screen.blit(URANUS_IMG, (950, 150))
             screen.blit(VENUS_IMG, (50, 350))
+
+            earth_rect = EARTH_IMG.get_rect(center=(640, 320))
+            screen.blit(SUN_IMG, earth_rect)
             screen.blit(SUN_IMG, (200, 350))
             screen.blit 
             if event.type == pygame.QUIT:
