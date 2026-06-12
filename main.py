@@ -30,8 +30,6 @@ def main():
 
             earth_rect = EARTH_IMG.get_rect(center=(640, 320))
             screen.blit(SUN_IMG, earth_rect)
-            screen.blit(SUN_IMG, (200, 350))
-            screen.blit 
             if event.type == pygame.QUIT:
                 running = False;
         pygame.display.update();
