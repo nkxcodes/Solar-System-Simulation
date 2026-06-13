@@ -19,16 +19,16 @@ def main():
     while running:
         for event in pygame.event.get():
             screen.blit(BACKGROUND_IMG, (0, 0))
-            screen.blit(EARTH_IMG, (50, 150))
-            screen.blit(JUPITER_IMG, (200, 150))
-            screen.blit(MARS_IMG, (350, 150))
-            screen.blit(MERCURY_IMG, (500, 150))
-            screen.blit(NEPTUNE_IMG, (650, 150))
-            screen.blit(SATURN_IMG, (800, 150))
-            screen.blit(URANUS_IMG, (950, 150))
-            screen.blit(VENUS_IMG, (50, 350))
+            screen.blit(EARTH_IMG, (1180, 540))
+            screen.blit(JUPITER_IMG, (1380, 540))
+            screen.blit(MARS_IMG, (1260, 540))
+            screen.blit(MERCURY_IMG, (1060, 540))
+            screen.blit(NEPTUNE_IMG, (1810, 540))
+            screen.blit(SATURN_IMG, (1510, 540))
+            screen.blit(URANUS_IMG, (1660, 540))
+            screen.blit(VENUS_IMG, (1110, 540))
 
-            earth_rect = EARTH_IMG.get_rect(center=(640, 320))
+            earth_rect = EARTH_IMG.get_rect(center=(960, 540))
             screen.blit(SUN_IMG, earth_rect)
             if event.type == pygame.QUIT:
                 running = False;
