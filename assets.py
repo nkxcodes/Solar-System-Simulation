@@ -37,7 +37,7 @@ VENUS_IMG = pygame.transform.scale(
 
 SUN_IMG = pygame.transform.scale(
     pygame.image.load("assets/sun.png").convert_alpha(),
-    (120, 120)
+    (150, 150)
 )
 
 SATURN_IMG = pygame.transform.scale(
