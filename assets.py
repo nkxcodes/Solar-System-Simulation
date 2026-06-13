@@ -46,6 +46,6 @@ SATURN_IMG = pygame.transform.scale(
 )
 
 BACKGROUND_IMG = pygame.transform.scale(
-    pygame.image.load("assets/stars-at-night-sky.png").convert_alpha(),
+    pygame.image.load("assets/space.webp").convert_alpha(),
     (1920, 1080)
 )
