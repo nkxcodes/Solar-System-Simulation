@@ -35,7 +35,7 @@ def main():
 
 
         for planet in planets:
-            Planet(planet["Diameter(km)"], planet["Distance_from_Sun_(million km)"], planet["Main_Color"], planet["Moons"], planet["Orbital_Speed_(km/s)"], planet["Current_X_Position"], planet["Current_Y_Position"])
+            Planet(planet["Diameter(km)"], planet["Distance_from_Sun_(million km)"], planet["Orbital_Speed_(km/s)"], planet["Current_X_Position"], planet["Current_Y_Position"])
 
             earth_rect = EARTH_IMG.get_rect(center=(860, 460))
             screen.blit(SUN_IMG, earth_rect)
